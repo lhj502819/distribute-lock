@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpaBuddyIdeaProjectConfig" migrateDefaultValues="false">
+    <option name="migrateDefaultValues" value="false" />
+    <option name="reLastEntityCreationPackage" value="distribute-lock-mysql/src/main/java/com/onenine/distributelock/entity" />
+    <option name="reverseEngineeringLastDbConnectionId" value="e80e850f-0b00-4c4e-8d08-c907b41aba0c" />
+  </component>
+</project>
