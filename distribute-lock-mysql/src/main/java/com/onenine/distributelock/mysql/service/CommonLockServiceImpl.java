@@ -1,11 +1,10 @@
-package com.onenine.distributelock.service;
+package com.onenine.distributelock.mysql.service;
 
 import cn.hutool.core.util.StrUtil;
-import com.onenine.distributelock.entity.CommonLock;
-import com.onenine.distributelock.repository.CommonLockRepository;
+import com.onenine.distributelock.mysql.entity.CommonLock;
+import com.onenine.distributelock.mysql.repository.CommonLockRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.hibernate.exception.ConstraintViolationException;
 import org.springframework.stereotype.Service;
 
 @Slf4j

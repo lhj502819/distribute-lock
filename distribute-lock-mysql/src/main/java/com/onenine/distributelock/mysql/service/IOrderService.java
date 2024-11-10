@@ -1,4 +1,4 @@
-package com.onenine.distributelock.service;
+package com.onenine.distributelock.mysql.service;
 
 /**
  * Description：

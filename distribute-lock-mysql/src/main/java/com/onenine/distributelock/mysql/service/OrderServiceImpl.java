@@ -1,16 +1,15 @@
-package com.onenine.distributelock.service;
+package com.onenine.distributelock.mysql.service;
 
-import cn.hutool.core.thread.threadlocal.NamedThreadLocal;
 import cn.hutool.core.util.RandomUtil;
 import cn.hutool.core.util.StrUtil;
-import com.onenine.distributelock.utils.IpUtil;
+import com.onenine.distributelock.mysql.utils.IpUtil;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.TimeUnit;
 
-import static com.onenine.distributelock.utils.FinalString.PROJECT_NAME;
+import static com.onenine.distributelock.mysql.utils.FinalString.PROJECT_NAME;
 
 /**
  * Description：订单服务

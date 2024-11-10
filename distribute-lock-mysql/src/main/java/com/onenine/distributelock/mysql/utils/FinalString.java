@@ -1,4 +1,4 @@
-package com.onenine.distributelock.utils;
+package com.onenine.distributelock.mysql.utils;
 
 public class FinalString {
 

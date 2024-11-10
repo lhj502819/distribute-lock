@@ -1,8 +1,7 @@
-import cn.hutool.core.net.Ipv4Util;
 import cn.hutool.core.thread.ThreadUtil;
 import com.onenine.distributelock.DistributeLockMySqlApplication;
-import com.onenine.distributelock.service.ICommonLockService;
-import com.onenine.distributelock.service.IOrderService;
+import com.onenine.distributelock.mysql.service.ICommonLockService;
+import com.onenine.distributelock.mysql.service.IOrderService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

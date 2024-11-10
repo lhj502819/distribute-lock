@@ -1,4 +1,4 @@
-package com.onenine.distributelock.entity;
+package com.onenine.distributelock.mysql.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

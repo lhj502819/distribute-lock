@@ -1,6 +1,6 @@
-package com.onenine.distributelock.repository;
+package com.onenine.distributelock.mysql.repository;
 
-import com.onenine.distributelock.entity.CommonLock;
+import com.onenine.distributelock.mysql.entity.CommonLock;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

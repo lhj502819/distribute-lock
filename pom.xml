@@ -21,6 +21,7 @@
 
 	<modules>
 		<module>distribute-lock-mysql</module>
+		<module>distribute-lock-redis</module>
 	</modules>
 
 	<dependencies>
