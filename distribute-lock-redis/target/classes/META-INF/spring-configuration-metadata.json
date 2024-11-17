@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "distribution-lock-redis",
+      "type": "com.onenine.distributelock.redis.config.DistributionLockRedisProperties",
+      "sourceType": "com.onenine.distributelock.redis.config.DistributionLockRedisProperties"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
