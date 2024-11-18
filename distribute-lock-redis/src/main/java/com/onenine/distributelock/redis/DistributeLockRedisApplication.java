@@ -16,8 +16,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.concurrent.TimeUnit;
-
 /**
  * @author li.hongjian
  * @Date 2024/11/9
@@ -40,14 +38,6 @@ public class DistributeLockRedisApplication {
         // 获取锁
         RLock mylock = redissonClient.getLock("mylock");
 
-        // 加锁
-        mylock.lock();
-        try {
-            TimeUnit.SECONDS.sleep(1000 * 10);
-        }finally {
-            // 解锁
-            mylock.unlock();
-        }
     }
 
 
